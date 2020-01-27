@@ -68,7 +68,7 @@ public class ExcelColor {
 		excel.addCell(45, 0, "PLUM", sheetname);
 		excel.addCell(46, 0, "INDIGO", sheetname);
 		excel.addCell(47, 0, "GREY_80_PERCENT", sheetname);
-		excel.addCell(47, 0, "AUTOMATIC", sheetname);       
+		excel.addCell(48, 0, "AUTOMATIC", sheetname);       
 		
 		excel.setColorCell(1 , 1, excel.BLACK, sheetname);
 		excel.setColorCell(2 , 1, excel.WHITE, sheetname);
@@ -117,7 +117,7 @@ public class ExcelColor {
 		excel.setColorCell(45, 1, excel.PLUM, sheetname);
 		excel.setColorCell(46, 1, excel.INDIGO, sheetname);
 		excel.setColorCell(47, 1, excel.GREY_80_PERCENT, sheetname);
-		excel.setColorCell(47, 1, excel.AUTOMATIC, sheetname);
+		excel.setColorCell(48, 1, excel.AUTOMATIC, sheetname);
 		
 		excel.write();
 		Utils.openDirectory(path+"\\excels\\"+fileDestin);
